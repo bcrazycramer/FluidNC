@@ -4,8 +4,8 @@ H100 General protocol:
 
 Read F011 (min frequency) and F005 (max frequency):
 
-[03] [000B] [0001] gives [03] [02] [xxxx] (with 02 the result byte count).
-[03] [0005] [0001] gives [03] [02] [xxxx] (with 02 the result byte count).
+[01] [03] [000B] [0001] gives [03] [02] [xxxx] (with 02 the result byte count).
+[01] [03] [0005] [0001] gives [03] [02] [xxxx] (with 02 the result byte count).
 
 First commands. These give the identity response if things go correctly. So:
 
